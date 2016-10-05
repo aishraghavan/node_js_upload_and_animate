@@ -1,0 +1,26 @@
+{
+  "name": "ar_upload_and_animate",
+  "version": "1.0.0",
+  "description": "Mini project to upload an image and display animation using Nodejs and Threejs.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "multer": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aishs8"
+  },
+  "keywords": [
+    "Nodejs",
+    "Threejs"
+  ],
+  "author": "Aishwarya Raghavan",
+  "license": "ISC"
+}

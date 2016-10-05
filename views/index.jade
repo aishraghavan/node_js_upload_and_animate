@@ -1,0 +1,15 @@
+//- views/index.jade
+html
+  head
+    title Home page
+  body
+    h2
+      | Image Uploader
+      h2
+        form(method='post', enctype='multipart/form-data', action='/')
+          p
+            input(type='file', name='upl')
+          p
+            input(type='submit', value='upload')
+        h3 Instructions
+        p Select a file to be uploaded
